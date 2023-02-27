@@ -1,0 +1,38 @@
+@import 'normalize.css';
+@font-face {
+    font-family: proxima-regular;
+    src: url('../../fonts/PROXIMANOVA-REGULAR.ttf') format('truetype');
+}
+@font-face {
+    font-family: proxima-thin;
+    src: url('../../fonts/PROXIMANOVAT-THIN.OTF') format('truetype');
+}
+@font-face {
+    font-family: proxima-bold;
+    src: url('../../fonts/PROXIMANOVA-BOLD.OTF');
+    font-weight: bold;
+}
+@font-face {
+    font-family: sofia-light;
+    src: url('../../fonts/SOFIAPROSOFT-LIGHT.OTF');
+}
+@font-face {
+    font-family: sofia-bold;
+    src: url('../../fonts/SOFIAPROSOFT-BOLD.OTF');
+    font-weight: bold;
+}
+
+:root {
+    --primary: #fe2c55;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: proxima-regular;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
